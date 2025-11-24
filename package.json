@@ -1,0 +1,36 @@
+{
+  "name": "dtz-nova-x-md",
+  "version": "2.2.0",
+  "description": "DTZ NOVA X MD - Complete WhatsApp Bot in Single File",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "clean": "rm -rf sessions session_* ./session_*"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "multidevice",
+    "automation",
+    "qr-code",
+    "phone-pairing",
+    "messaging",
+    "baileys",
+    "single-file"
+  ],
+  "author": "Dulina Nethmira",
+  "license": "ISC",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.6.0",
+    "express": "^4.21.2",
+    "body-parser": "^1.20.3",
+    "pino": "^9.5.0",
+    "qrcode": "^1.5.4",
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
